@@ -1,5 +1,10 @@
 # upug
 App de informacion del equipo favorito
+Primero, la Filosofia.
+
+Marcelo Bielsa: “No hago análisis numéricos. Uno se desgasta anticipando el futuro”.
+
+Pero me parece que en los numeros hay una tendencia de un equipo de futbol a salir campeon, o salvarse de ir a jugar a la b, alguno dira por ahi que hubo "Mano Negra" que se "ayudo" o que hubo "Hombre del Maletin" para salvar o que salga campeon uno u otro, lo cierto es que, asi es como me gustaria ver a mi la informacion de mi equipo favorito cuando le toca jugar, se que existen varias apps y grandes portales dando la misma o quizas mas info, con actualizacion en vivo, genial, pero el abuso de la propaganda web es la que a mi me aleja de toda esa informacion, y por chiste y gracias a una terrible crisis mundial es que el aburrinmiento una vez mas me llevo a "programar".
 
 Informacion de la Aplicacion.
 La app es principalmente la  informacion a mano de como esta la situacion del equipo en un torneo dado.
