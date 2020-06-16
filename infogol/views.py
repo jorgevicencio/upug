@@ -9,5 +9,5 @@ def index(request):
 
 def equipolau(request):
     # context = {"equipo": "LA U"}, 
-    return render(request, 'base.html')
+    return render(request, 'infogol/info_forofo.html')
     
