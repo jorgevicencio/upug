@@ -6,11 +6,14 @@ class forofo(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     equipofavorito = models.CharField(max_length=3, null=True)
 
+    def __str__(self):
+        return self.name
 
 class equipos(models.Model):
     nombre = models.CharField(max_length=50, null=True)
     codigo_equipo = models.CharField(max_length=3, null=True)
     ciudad = models.CharField(max_length=50, null=True)
+    puntos = models.IntegerField(null=True)
     partidos_jugados = models.IntegerField(null=True) 
     partidos_ganados= models.IntegerField(null=True)
     partidos_empatados= models.IntegerField(null=True)
