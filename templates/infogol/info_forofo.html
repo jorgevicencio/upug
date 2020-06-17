@@ -1,118 +1,59 @@
-{% extends "base.html" %}
+{% extends "base.html" %}{% load static %}
 {% block content %}
 <!-- informacion del equipo favorito  -->
 <!-- fila 1 -->
 <div class="row" style="background-color: #011377;">
-  <!-- posicion -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+  <!-- posicion - puntos - partidos jugados-->
+  <div class="col-12 col-sm-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
     <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color: #FFF; text-align: center;">
-        <h5>
-          Posicion 1
-        </h5>
+      <div class="card-body" style="color: #FFF;text-align: center;padding-left: 5px;padding-top: 5px;padding-right: 5px;padding-bottom: 5px;">
+        <p class="font-weight-normal text-center" style="margin-bottom: 0px;">
+          Posicion 1 - Puntos 27 - Partidos Jugados 9
+        </p>
       </div>
     </div>
-  </div>
-  <!-- Puntos -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color: #FFF; text-align: center;">
-        <h5>
-          Puntos 27
-        </h5>
-      </div>
-    </div>              
-  </div>
-  <!-- partidos jugados -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color: #FFF; text-align: center;">
-        <h5>
-          Partidos 9
-        </h5>
-      </div>
-    </div>               
   </div>
 </div>
 
 <!-- informacion del equipo favorito  -->
 <!-- fila 2 -->
 <div class="row" style="background-color: #011377;">
-  <!-- goles a favor -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+  <!-- goles a favor - goles en contra - diferencia de goles-->
+  <div class="col-12 col-sm-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
     <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color:#FFF; text-align: center;">
-        <h5>
-          Goles +30
-        </h5>
+      <div class="card-body" style="color: #FFF;text-align: center;padding-left: 5px;padding-top: 5px;padding-right: 5px;padding-bottom: 5px;">
+        <p class="font-weight-normal text-center" style="margin-bottom: 0px;">
+          Goles + 32 - Goles (- 5) - Diff +23 Partidos Jugados 9
+        </p>
       </div>
     </div>
   </div>
-<!-- goles en contra -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color:#FFF; text-align: center;">
-        <h5>
-          Goles -3
-        </h5>
-      </div>
-    </div>              
-  </div>
-  <!-- diferencia de goles -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color: #FFF; text-align: center;">
-        <h5>
-          Dif +27
-        </h5>
-      </div>
-    </div>                
-  </div>                           
 </div>
 <!-- informacion del equipo favorito  -->
 <!-- fila 3 -->
 <div class="row" style="background-color: #011377;">
-  <!-- fecha numero... -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color:#FFF; text-align: center;">
-        <h5>
-          Fecha N° 10
-         </h5>
+  <!-- fecha numero... rival -->
+    <!-- goles a favor - goles en contra - diferencia de goles-->
+    <div class="col-12 col-sm-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+      <div class="card border-light" style="background-color: #011377;">
+        <div class="card-body" style="color: #FFF;text-align: center;padding-left: 5px;padding-top: 5px;padding-right: 5px;padding-bottom: 5px;">
+          <p class="font-weight-normal text-center" style="margin-bottom: 0px;">
+            Fecha N° 10 -  Rival: Audax Italiano
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- fecha -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color:#FFF; text-align: center;">
-        <h5>
-          12-08-2020
-        </h5>
-      </div>
-    </div>
-  </div>
-  <!-- rival -->
-  <div class="col-6 col-sm-4" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
-    <div class="card border-light" style="background-color: #011377;">
-      <div class="card-body" style="color:#FFF; text-align: center;">
-        <h5>
-          Rival: Audax Italiano
-        </h5>
-      </div>
-    </div>              
-  </div>            
 </div>
 
 <!-- Formaciones -->
 <div class="row" style="background-color: #011377;">
   <!-- Formacion Equipo local -->
-    <div class="col-md-6 order-md-1 text-center text-md-center"
+    <div class="col-6 col-sm-4 text-center text-md-center"
     style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
       <div class="card border-light" style="width: auto; background-color: #011377;">
-        <img src="/home/chascas/desarrollo/insignias_1/lau.jpeg" class="card-img-top" style="width:255px; height:auto;" alt="...">
+        <img src="{% static 'insignias/lau.jpeg' %}" class="card-img-top" style="width:175px; height:auto;" alt="El LEON">
         <div class="card-body"> 
-          <h5 class="card-title" style="vertical-align:middle;  color: #FFFFFF">
+          <h5 class="card-title" style="vertical-align:middle; color: #FFFFFF">
             <font style="vertical-align: inherit;;">Universidad de Chile</font>
           </h5>
           <p class="card-text" style=" color: #FFFFFF">Formacion probable:</p>
@@ -177,12 +118,12 @@
 <!-- fin Formacion Equipo local -->
 
 <!-- Formacion Equipo visita -->
-    <div class="col-md-6 order-md-1 text-center text-md-center"
+    <div class="col-6 col-sm-4 order-md-1 text-center text-md-center"
     style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
     <div class="card border-light" style="width: auto; background-color: #1e8742;">
-      <img src="/home/chascas/desarrollo/insignias_1/audax_2.png" 
+      <img src="{% static 'insignias/audax_2.png' %}" 
       class="card-img-top" 
-      style="width:255px; height:auto;" alt="...">
+      style="width:175px; height:auto;" alt="...">
       <div class="card-body"> 
         <h5 class="card-title" style="vertical-align:middle;  color: #FFFFFF">
           <font style="vertical-align: inherit;;">Universidad de Chile</font>
@@ -259,16 +200,16 @@
 
 <!-- proximos 3 Partidos del equipo favorito -->
 <div class="row" style="background-color: #011377;">
-  <div class="col-md-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+  <div class="col-12 col-sm-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
     <div class="card border-light" style="width: auto; background-color: #011377;">
       <div class="card-title" style="text-align: center; color: #ffffff;">
-        <h3 class="mb-3">
+        <h5 class="mb-3" style="margin-top: 16px;">
         <font style="vertical-align: inherit;">
           <font style="vertical-align: inherit;">Proximos 3 Partidos</font>
         </font>
-        </h3>
+        </h5>
       </div>
-      <ul class="list-group list-group-flush" style="text-align: center; color: #ffffff;">
+      <ul class="list-group list-group-flush font-weight-normal" style="text-align: center; color: #ffffff;">
         <li class="list-group-item"style="background-color: #011377;">Fecha N° 11 Universidad de Chile vs Palestino</li>
         <li class="list-group-item"style="background-color: #011377;">Fecha N° 12 Wanders vs Universidad de Chile</li>
         <li class="list-group-item"style="background-color: #011377;">Fecha N° 13 Everton vs Universidad de Chile</li>
@@ -280,17 +221,17 @@
 
 <!-- Ultimos 3 Partidos del equipo favorito -->
 <div class="row" style="background-color: #011377;">
-  <div class="col-md-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+  <div class="col-12 col-sm-12" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
     <div class="card border-light" style="width: auto; background-color: #011377;">
       <div class="card-title" style="text-align: center; color: #FFFFFF;">
-        <h3 class="mb-3">
+        <h5 class="mb-3" style="margin-top: 16px;">
         <font style="vertical-align: inherit;">
           <font style="vertical-align: inherit;">Ultimos 3 Partidos</font>
         </font>
-        </h3>
+        </h5>
       </div>
       <div>
-        <ul class="list-group list-group-flush" style="text-align: center; color: #ffffff;">
+        <ul class="list-group list-group-flush font-weight-normal" style="text-align: center; color: #ffffff;">
           <li class="list-group-item"style="background-color: #011377;">Fecha N° 7 Universidad de Chile 4 vs Curico Unido 1</li>
           <li class="list-group-item"style="background-color: #011377;">Fecha N° 8 Comquimbo Unido 0 vs Universidad de Chile 3</li>
           <li class="list-group-item"style="background-color: #011377;">Fecha N° 9 Union La Calera 2 vs Universidad de Chile 5</li>

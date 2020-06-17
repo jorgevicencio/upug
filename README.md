@@ -1,10 +1,10 @@
-# upug
-App de informacion del equipo favorito
-Primero, la Filosofia.
+# upug - Una Pelota, Un Gol (el nombre es discutible)
+App de informacion del equipo favorito - 
+Primero, la Filosofia. #chascaperrochico #eldiadelamarmota
 
-Marcelo Bielsa: “No hago análisis numéricos. Uno se desgasta anticipando el futuro”.
+Marcelo Bielsa: “No hago análisis numéricos. Uno se desgasta anticipando el futuro”. "Las evaluaciones hay que hacerlas con la totalidad de los datos" “La producción se mide en función de las posibilidades, no exclusivamente en función de los logros, pero nosotros estamos acostumbrados sólo a valorar a aquel que llega más arriba”
 
-Pero me parece que en los numeros hay una tendencia de un equipo de futbol a salir campeon, o salvarse de ir a jugar a la b, alguno dira por ahi que hubo "Mano Negra" que se "ayudo" o que hubo "Hombre del Maletin" para salvar o que salga campeon uno u otro, lo cierto es que, asi es como me gustaria ver a mi la informacion de mi equipo favorito cuando le toca jugar, se que existen varias apps y grandes portales dando la misma o quizas mas info, con actualizacion en vivo, genial, pero el abuso de la propaganda web es la que a mi me aleja de toda esa informacion, y por chiste y gracias a una terrible crisis mundial es que el aburrinmiento una vez mas me llevo a "programar".
+Pero me parece que en los numeros hay una tendencia de un equipo de futbol a salir campeón, o salvar-se de ir a jugar a la b, alguno dira por ahí que hubo "Mano Negra" que se "ayudo" o que hubo "Hombre del Maletin" para salvar o que salga campeón uno u otro, pero, lo cierto es que, así es como me gustaría ver a mí la información de mí equipo favorito cuando le toca jugar, se que existen varias apps y grandes portales dando la misma o quizas mas info, con actualización en vivo, genial, pero el abuso de la propaganda web, y la mucha informacion revuelta es la que a mí me aleja de toda esa información, y por un chiste viejo y gracias a una terrible crisis mundial es que el aburrimiento una vez mas me llevo a "programar", para llegar a algo asi como un "hagalo usted mismo".
 
 Informacion de la Aplicacion.
 La app es principalmente la  informacion a mano de como esta la situacion del equipo en un torneo dado.
