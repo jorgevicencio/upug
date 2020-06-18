@@ -1,6 +1,6 @@
-# upug - Una Pelota, Un Gol (el nombre es discutible)
+# Soker
 App de informacion del equipo favorito - 
-Primero, la Filosofia. #chascaperrochico #eldiadelamarmota
+Primero, la Filosofia.
 
 Marcelo Bielsa: “No hago análisis numéricos. Uno se desgasta anticipando el futuro”. "Las evaluaciones hay que hacerlas con la totalidad de los datos" “La producción se mide en función de las posibilidades, no exclusivamente en función de los logros, pero nosotros estamos acostumbrados sólo a valorar a aquel que llega más arriba”
 
@@ -14,3 +14,7 @@ La creacion de esta app es hacerlo en un formato web, para ver en un dispositivo
 Como Funciona la App (esto esta en un serio proceso de como diablos hacer-lo)
 La app en su version de prueba tiene un login con un nombre de usuario, escoje un equipo favorito un correo y una clave, con esta configuracion el usuario accedera a un detalle de la situacion del equipo escogido.
 El usuario podra escoger y revisar el estado de cualquier equipo en el menu en la barra de navegacion de la app.
+
+Jorge Vicencio
+#chascaperrochico 
+#eldiadelamarmota
